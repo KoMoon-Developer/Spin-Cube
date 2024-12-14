@@ -17,5 +17,5 @@ find_package(OpenGL REQUIRED)
 # Create Executable
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 add_executable(CubeOpenGL Main.cpp ${SRC})
-target_link_libraries(OpenGLTemp OpenGL::GL ${CMAKE_SOURCE_DIR}/lib/glfw3.lib)
+target_link_libraries(CubeOpenGL OpenGL::GL ${CMAKE_SOURCE_DIR}/lib/glfw3.lib)
 
